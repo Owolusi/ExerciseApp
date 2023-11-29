@@ -53,6 +53,15 @@ body {
   height: 742px;
 }
 
+ .hero-banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 570px;
+  height: 619px;
+  margin-top: -116px;
+} 
+/*
 .hero-banner-img {
   position: absolute;
   right: 40px;
@@ -60,8 +69,7 @@ body {
   width: 700px;
   height: 900px;
   margin-top: -330px;
-
-}
+} */
 
 .exercise-card {
   width: 400px;
@@ -123,7 +131,7 @@ body {
   }
 
   .hero-banner-img {
-    display: none;
+    /* display: none; */
   }
 
   .exercise-card {
@@ -141,4 +149,18 @@ body {
   .exercise-card {
     width: 280px;
   }
+  
 }
+
+
+
+
+
+/* added b m */
+
+@media screen and (max-width:900px) {
+  .hero-banner-img {
+    display: none;
+  }
+ 
+  }
