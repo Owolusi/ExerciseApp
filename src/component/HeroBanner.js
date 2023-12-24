@@ -24,7 +24,8 @@ const HeroBanner = () => {
             fontSize="22px"
             lineHeight="35px"
             mb={4}>
-                Check out the most Effective exercises for your physical and heathy development
+                Check out the most Effective exercises for <br/>
+                your physical and heathy development
             </Typography>
             <Button variant='contained' color='error'
             href='#exercises'
