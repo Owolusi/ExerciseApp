@@ -32,17 +32,22 @@ const HeroBanner = () => {
             sx={{backgroundColor:'#ff2625', padding:"10px"}}
             >Explore Exercises</Button>
            
-            <Typography
-            className='exercise_word'
+            {/* <Typography
             fontWeight={600}
             color="#ff2625"
-            sx={{
-                opacity:{lg:'block', xs:'none'}
+            sx={{opacity:{lg:'block', xs:'none'}
             }}
             fontSize="200px"
             >
                 Exercise
-            </Typography>
+            </Typography> */}
+             <Typography fontWeight={600} 
+                color="#FF2625" 
+                 sx={{ opacity: '0.1', 
+                display: { lg: 'block', xs: 'none' }, 
+                fontSize: '200px' }}>
+                 Exercise
+                </Typography>
             <img src={HerobannerImage} alt='banner' 
             className="hero-banner-img" />
     </Box>
