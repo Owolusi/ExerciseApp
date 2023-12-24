@@ -1,6 +1,6 @@
 import React from 'react';
 import{Box,Typography, Button} from '@mui/material';
-import HerobannerImage from "../../src/assets/images/banner.png";
+import HerobannerImage from "../../src/assets/images/banner.jpg";
 
 const HeroBanner = () => {
   return (
@@ -27,10 +27,12 @@ const HeroBanner = () => {
                 Check out the most Effective exercises
             </Typography>
             <Button variant='contained' color='error'
-            href='exercises'
+            href='#exercises'
             sx={{backgroundColor:'#ff2625', padding:"10px"}}
             >Explore Exercises</Button>
+           
             <Typography
+            className='exercise_word'
             fontWeight={600}
             color="#ff2625"
             sx={{

@@ -13,7 +13,12 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
 }
-
+p, h4{
+  color: #fff;
+}
+button{
+  color: #fff;
+}
 .right-arrow,
 .left-arrow {
   cursor: pointer;
@@ -52,24 +57,23 @@ body {
   width: 729px;
   height: 742px;
 }
-
+/* 
  .hero-banner-img {
   position: absolute;
   right: 40px;
   top: 0;
-  width: 570px;
-  height: 619px;
+  width: 50px;
+  height: 600px;
   margin-top: -116px;
-} 
-/*
+}  */
 .hero-banner-img {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
-  height: 900px;
-  margin-top: -330px;
-} */
+  width: 431px;
+  height: 362px;
+  margin-top: -25px;
+} 
 
 .exercise-card {
   width: 400px;
@@ -112,6 +116,9 @@ body {
   width: 387px;
   height: 381px;
   text-decoration: none;
+}
+li.button{
+  color: white;
 }
 
 @media screen and (max-width:1200px) {
